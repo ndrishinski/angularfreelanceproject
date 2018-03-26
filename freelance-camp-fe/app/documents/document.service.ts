@@ -10,7 +10,7 @@ export class DocumentService {
 
   constructor(
     private http: Http
-    ) {}
+  ) {}
 
   getDocuments(): Observable<Document[]> {
     return this.http.get(this.documentsUrl)

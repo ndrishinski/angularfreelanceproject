@@ -34,7 +34,7 @@ import { AppRoutingModule } from './app-routing.module';
     DocumentService
   ],
   bootstrap: [
-    AppComponent 
+    AppComponent
   ]
 })
 export class AppModule {}
